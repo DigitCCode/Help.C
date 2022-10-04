@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help.C</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <!--JavaScript Menu -->
+    <script src="js/script.js" defer></script>
+
+    <title>Help.C</title>
 </head>
 <body>
     <section class="header">
@@ -22,7 +28,7 @@
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#instituicao">Instituições</a></li>
                     <li><a href="#contato">Contato</a></li>
-                    <li><a href="#" class="profile"><img src="img/perfil-final.png"></a></li>
+                    <li><a href="javascript:newPopup()" class="profile"><img src="img/perfil-final.png"></a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -164,20 +170,5 @@
         </div>
         </section>
     </footer>
-
-
-<!--JavaScript Menu -->
-    <script>
-
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-
-    </script>
-
 </body>
 </html>
