@@ -21,7 +21,7 @@ function hideMenu(){
 //Função que chama o popup
 function newPopup(){
 	varWindow = window.open (
-	'popup.html',
+	'cadastro.html',
 	'pagina',
 	"width=600, height=600, top=230, left=260, scrollbars=no " );
 }
