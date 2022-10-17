@@ -23,5 +23,13 @@ function newPopup(){
 	varWindow = window.open (
 	'login.html',
 	'pagina',
-	"width=600, height=600, top=230, left=260, scrollbars=no " );
+	"width=600, height=600, top=auto, left=auto, scrollbars=no " );
 }
+
+//Card Slider
+$(".slider").owlCarousel({
+	loop: true,
+	autoplay: true,
+	autoplayTimeout: 2000,
+	autoplayHoverPause: true,
+});
