@@ -259,14 +259,16 @@ button {
 }
 .about img{
     height: auto;
-    width: 290px;
+    width: 200px;
     border-radius: 6%;
 }
 .about-text{
-    width: 550px;
+    width: 50%;
 }
 .main{
-    width: 1130px;
+    text-align: left;
+    font-size: auto;
+    width: 930px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
@@ -417,5 +419,17 @@ footer{
     .slider{
         width: 50%;
     }
-
+    .about{
+    
+    }
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .about-text{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
 }
