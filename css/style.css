@@ -366,7 +366,7 @@ footer{
 .slider .card{
     background: white;
     flex: 1;
-    margin: 0 10px;
+    margin: 0 20px;
     border-radius: 20px;
 }
 .slider .card img{
@@ -402,7 +402,6 @@ footer{
     margin: 10px 0;
 }
 .card .content .btn button{
-    background-color: #1b5713;
     color: white;
     border: none;
     outline: none;
@@ -415,21 +414,47 @@ footer{
 .card .content .btn button:hover{
     transform: scale(0.9);
 }
-@media(max-width: 700px) { 
+hr{
+    width: 50%;
+    margin: auto;
+    color: #f5ce21;
+    border-top: #f5ce21 ;
+}
+.btn-inst button{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ;
+    margin-top: 2%;
+}
+.btn-inst button:hover{
+    transform: scale(0.9);
+}
+@media(max-width: 600px) { 
     .slider{
-        width: 50%;
-    }
-    .about{
-    
+        display: none;
     }
     .main{
         display: block;
         text-align: center;
     }
     .about-text{
-        width: 90%;
+        font-size: 30%;
+        width: 60%;
         justify-content: center;
         align-items: center;
         margin:auto;
+    }
+    .slider .card{
+        padding: 0%;
+        margin: 0 0px;
+        display: none;
+    }
+    .btn-inst button{
+        margin-top: 10%;
     }
 }
