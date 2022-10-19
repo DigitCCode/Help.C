@@ -442,7 +442,9 @@ hr{
     .fotos-col {
         width: 50%;
         height: 50%;
-        align: center;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
     }
     .main{
         display: block;
