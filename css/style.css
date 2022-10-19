@@ -439,12 +439,6 @@ hr{
     .slider{
         display: none;
     }
-    .fotos-col {
-        width: 50%;
-        height: 50%;
-        justify-content: center;
-        align-items: center;
-    }
     .main{
         display: block;
         text-align: center;
