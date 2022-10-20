@@ -19,12 +19,12 @@ function hideMenu(){
 }
 
 //Função que chama o popup
-function newPopup(){
+/*function newPopup(){
 	varWindow = window.open (
 	'login.html',
 	'pagina',
 	"width=600, height=600, top=auto, left=auto, scrollbars=no " );
-}
+}*/
 
 //Card Slider
 $(".slider").owlCarousel({
