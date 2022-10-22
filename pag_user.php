@@ -1,3 +1,17 @@
+<?php 
+session_start();
+    //print_r($_SESSION);
+
+    if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['password']) == true)){
+        header('Location: login.php');
+        unset($_SESSION['email']);
+        unset($_SESSION['password']);
+    }
+
+    $logado = $_SESSION['email'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,22 +44,8 @@
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#instituicao">Instituições</a></li>
                     <li><a href="#contato">Contato</a></li>
-                    <li><a href="central.php" class="profile"><img src="img/perfil-final.png"></a></li> 
+                    <li><a href="sair.php" class="profile"> <?php echo $logado ?></a></li>
                 </ul>
-                <!--<div class="action">
-                    <div class="profile" onclick="menuToggle();">
-                        <img src="img/photo-perfil.png" alt="Perfil">
-                    </div>
-                    <div class="menu">
-                        <h3>Qualquer um  =)<br><span>Web Designer</span></h3>
-                        <ul>
-                            <li><img src="img/usuario-de-comentarios.png" alt=""><a href="#">Meu perfil</a></li>
-                            <li><img src="img/grampo.png" alt=""><a href="#">Arquivos</a></li>
-                            <li><img src="img/mochila.png" alt=""><a href="#">Configurações</a></li>
-                            <li><img src="img/troca.png" alt=""><a href="#">Logout</a></li>
-                        </ul>
-                    </div>
-                </div> -->
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>

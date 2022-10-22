@@ -33,3 +33,8 @@ $(".slider").owlCarousel({
 	autoplayTimeout: 2000,
 	autoplayHoverPause: true,
 });
+
+/*function menuToggle(){
+    const toggleMenu = document.querySelector('.menu')
+    toggleMenu.classList.toggle('active')
+}*/

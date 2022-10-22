@@ -11,6 +11,7 @@
 		VALUES ('$nome','$email','$senha')");
 	}
 
+	//header('Location: login.php');
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +21,7 @@
 	<meta http-equiv-"x-UA-Compatible" content-"IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 
-	<title>Login-Help.c</title>
+	<title>Cadastro-Help.c</title>
 
 	<link rel="stylesheet" href="css/popup_cadastro.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,10 +55,10 @@
 				</div>
 				
 				<div class="back">
-					<label for=""> Possuí um cadastro? <a href="login.html">Acesse aqui.</a></label>
+					<label for=""> Possuí um cadastro? <a href="login.php">Acesse aqui.</a></label>
 				</div>
 				<div class="continue-button">
-					<input type="submit" name="submit">
+					<input type="submit" name="submit" href="login.php">
 				</div>
 			</form>
 		</div>
