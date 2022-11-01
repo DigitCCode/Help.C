@@ -16,3 +16,12 @@ Lar de idosos vicente de Paulo de Caçapava {
 	}
 	
 }
+
+Creche Santo Antônio Caçapava {
+	Pagina no facebook: ("https://pt-br.facebook.com/crechesantoantonio.cacapava/"),
+	Endereço: Rua São Bento nº 48 vera Cruz , Caçapava, SP, Brazil, 12287-100,
+	Celular: (12) 3652-7044,
+	Horário de funcionamento: de Segunda a Sexta das 07:30 às 17:00;
+	Email: jszago@hotmail.com,
+	
+}
