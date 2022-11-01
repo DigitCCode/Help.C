@@ -1,0 +1,18 @@
+Lar de idosos vicente de Paulo de Caçapava {
+	Site: ("https://www.larvicentedepaulo.com.br/"),
+	Nome da Instituição: Lar de Idosos Vicente de Paulo de Caçapava,
+	Data Inicio: 19 de março 1902,
+	Tipo de Empresa: Beneficente, apolítica, sem fins econômicos, duração ilimitada,
+	Publico alvo: 60 anos,
+	Capacidade: atende até 32 idosos,
+	Missão: manter a dignidade da pessoa idosas,
+	//////////////////////////////////////////////////////////////////////
+	Chave pix: 45.845.013/0001-08(CNPJ),
+	Transferencia bancária {
+		banco santander-Número 033,
+		Lar de Idosos Vicente de Paulo de Caçapava,
+		CNPJ:  45.845.013/0001-08;
+		Ag. 0016 - C/C 13.001038-5
+	}
+	
+}
