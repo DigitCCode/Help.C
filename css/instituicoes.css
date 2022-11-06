@@ -23,7 +23,8 @@ img{
 .container{
     background-color: #fff;
     border-radius: 13px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 40px;
 }
 
   /* Float four columns side by side */
