@@ -15,8 +15,8 @@
 		}
 		.container {
 			background-color: white;
-			width: auto;
-			height: auto;
+			width:auto;
+			height:auto;
 			display: flex;
 			box-shadow: 5px 5px 10px rgba(0,0,0, .212);
 			align-items: center;
@@ -31,10 +31,11 @@
 		}
 
 		.input-box{
-			margin: 10px;
+			margin: 20px;
 		}
 		.input-box input{
 			padding: 10px;
+			padding-inline: 30px;
 			border-radius: 10px;
 			border-color: #f5ce21;
 			border-style: none;
@@ -66,7 +67,7 @@
 			font-weight: 600;
 		}
 		.back{
-			font-size: 10px;
+			font-size: 12px;
 			opacity: 0.4;
 			text-align: right;
 			margin-top: 10px;

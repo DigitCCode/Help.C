@@ -19,12 +19,12 @@ function hideMenu(){
 }
 
 //Função que chama o popup
-function newPopup(){
+/*function newPopup(){
 	varWindow = window.open (
 	'login.html',
 	'pagina',
 	"width=600, height=600, top=auto, left=auto, scrollbars=no " );
-}
+}*/
 
 //Card Slider
 $(".slider").owlCarousel({
@@ -33,3 +33,8 @@ $(".slider").owlCarousel({
 	autoplayTimeout: 2000,
 	autoplayHoverPause: true,
 });
+
+/*function menuToggle(){
+    const toggleMenu = document.querySelector('.menu')
+    toggleMenu.classList.toggle('active')
+}*/
