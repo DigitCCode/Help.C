@@ -10,6 +10,24 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.bt-evento {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
+	color: #ffd33d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	position: absolute;
+	right: 30px;
+	top: 5px;
+}
+
 .title{
     color: rgb(255, 255, 255);
     margin-top: 15px;
