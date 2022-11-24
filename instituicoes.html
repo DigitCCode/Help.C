@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/logo.png">
-    <link rel="stylesheet" href="css/instituicoes.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <title>Instituições</title>
-</head>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,6 +19,7 @@
 	  </div>
     <hr>
     <div class="container">
+    <!--first row-->  
 		<div class="row">
               <div class="card">
                 <img src="./img/APAE2.jpg" alt="">
@@ -40,14 +29,28 @@
                     <button>Leia mais</button>
                 </div>
               </div>
+
               <div class="card">
                 <img src="./img/APAE2.jpg" alt="">
                 <h5>APAE</h5>
                 <p>Apae Brasil é a maior rede de apoio às Pessoas com Deficiência Intelectual ou Deficiência Múltipla. De acordo com o Censo IBGE 2010, o Brasil tem 45.606.048 de pessoas com deficiência, o que equivale a 23,9% da população do País. 18,60% foram declaradas pessoas com deficiência visual, 7% com deficiência motora, 5,10% com deficiência auditiva e 1,40% com deficiência mental.</p>
                 <div class="btn">
-                    <button>Leia mais</button>
+                    <button id="opening" class="open">Leia mais</button>
+                </div>
+                <div class="popup-container" id="popup_container">
+                  <div class="popup-open">
+                      <div class="popup">
+                        <div class="title-popup">
+                          <h1>Login</h1>
+                        </div>
+                      </div>
+                      <div class="button-back" id="closing">
+                          <button id="closing">Voltar</button>
+                      </div>
+                  </div>
                 </div>
               </div>
+
               <div class="card">
                 <img src="./img/APAE2.jpg" alt="">
                 <h5>APAE</h5>
@@ -57,6 +60,9 @@
                 </div>
               </div>
 			</div>
+      <!--first row-->
+      
+      <!--second row-->  
 		<div class="row">
               <div class="card">
                 <img src="./img/APAE2.jpg" alt="">
@@ -66,6 +72,7 @@
                     <button>Leia mais</button>
                 </div>
               </div>
+
                 <div class="card">
                   <img src="./img/APAE2.jpg" alt="">
                   <h5>APAE</h5>
@@ -73,6 +80,7 @@
                   <div class="btn">
                       <button>Leia mais</button>
                   </div>
+
             </div>
                 <div class="card">
                   <img src="./img/APAE2.jpg" alt="">
@@ -82,7 +90,11 @@
                       <button>Leia mais</button>
                   </div>
                 </div>
+
 			</div>
+      <!--second row-->  
+
+      <!--third row-->  
 			<div class="row">
                 <div class="card">
                   <img src="./img/APAE2.jpg" alt="">
@@ -109,8 +121,10 @@
                   </div>
                 </div>
 			</div>
+      <!--third row--> 
     </div>
     <br>
     <br>
+    <script src="./js/instituicoes.js"></script>
 </body>
 </html>
