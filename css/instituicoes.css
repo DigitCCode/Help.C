@@ -50,6 +50,9 @@ img{
 	justify-content: center;
 	align-items: center;
 }
+h5{
+  text-transform: uppercase;
+}
 
 .row {
 	display: flex;
@@ -111,12 +114,12 @@ label{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #f5d133;
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   transition: opacity 0.3s ease;
 }
 .popup-container.show{
@@ -196,6 +199,7 @@ font-weight: 600;
 .title-popup{
   color: black;
 }
+
 ::-webkit-scrollbar{
   width: 30px;
 }
