@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	scroll-behavior: smooth;
+}
+.topo{
+	width: 100%;
+	min-height: 12vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #f5ce21;
+}
+.topo #logo{
+	width: 13%;
+}
+.topo .wiki{
+	border-radius: 10px;
+	border: none;
+	min-height: 6vh;
+	width: 40%;
+	background: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.topo .wiki img {
+	height: 3vh;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.topo .wiki input {
+	height: 4vh;
+	width: 90%;
+	border: none;
+}
+.topo .bt-evento {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #fff;
+	color: #ffd33d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+.corpo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.corpo .link {
+	width: 88%;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.corpo h2 {
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.corpo #seta {
+    width: 20px;
+}
+
+.corpo .container {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card .img {
+	margin-bottom: 5px;
+	width: 400px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.card .apae {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/APAE2.jpg);
+	background-position: center;
+}
+.card .descrição {
+	display: flex;
+	align-items: center;
+}
+.descrição h3 {
+	padding-left: 10px;
+}
+.descrição p {
+	font-size: 11px;
+	padding-left: 8px;
+}
+.descrição img {
+	width: 10px;
+}

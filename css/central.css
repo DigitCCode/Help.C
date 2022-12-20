@@ -73,11 +73,13 @@ body {
     font-size: 12px;
     opacity: 0.4;
     text-align: right;
-    margin-top: 10px;
 }
 .back a{
     text-decoration: none;
     color:#65963e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .back a:hover{
     color: #436429;
