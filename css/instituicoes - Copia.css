@@ -99,7 +99,15 @@ body{
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 .card .apae {
-	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/APAE2.jpg);
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/APAE2.png);
+	background-position: center;
+}
+.card .cdc {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/cdc.png);
+	background-position: center;
+}
+.card .conviver {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/conviver.png);
 	background-position: center;
 }
 .card .descrição {
