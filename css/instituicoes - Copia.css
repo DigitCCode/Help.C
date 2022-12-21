@@ -6,6 +6,7 @@
 body{
 	scroll-behavior: smooth;
 }
+/*--------Topo--------*/
 .topo{
 	width: 100%;
 	min-height: 12vh;
@@ -34,7 +35,7 @@ body{
 }
 .topo .wiki input {
 	height: 4vh;
-	width: 90%;
+	width: 85%;
 	border: none;
 }
 .topo .bt-evento {
@@ -51,12 +52,15 @@ body{
 	font-size: 30px;
 	cursor: pointer;
 }
+/*--------Corpo--------*/
 .corpo {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 250px;
+	transition: 1s;
 }
 .corpo .link {
 	width: 88%;
@@ -65,6 +69,12 @@ body{
 	display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.link:hover > h2{
+	 font-size: 20.5px;
+}
+.link:hover > #seta {
+	width: 24px;
 }
 .corpo h2 {
 	text-transform: uppercase;
@@ -75,7 +85,6 @@ body{
 .corpo #seta {
     width: 20px;
 }
-
 .corpo .container {
 	width: 90%;
 	display: flex;
@@ -99,6 +108,7 @@ body{
 }
 .descrição h3 {
 	padding-left: 10px;
+	text-transform: uppercase;
 }
 .descrição p {
 	font-size: 11px;
@@ -106,4 +116,173 @@ body{
 }
 .descrição img {
 	width: 10px;
+}
+/*--------Footer--------*/
+footer{
+    background-color: black;
+    padding: 50px 0;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: #f5ce21;
+}
+
+.footer-bottom{
+    display: inline-block;
+    width: 100%;
+    background: #000;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.slider{
+    margin-top: 20px;
+    max-width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider .card{
+    background: white;
+    flex: 1;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.slider .card img{
+    height: 200px;
+    width: 100%;
+}
+.slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.slider .card .content{
+    padding: 10px 20px;
+}
+.card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b5713;
+    line-height: 20px;
+}
+.card .content p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+.card .content .btn button{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ;
+}
+.card .content .btn button:hover{
+    transform: scale(0.9);
+}
+hr{
+    width: 50%;
+    margin: auto;
+    color: #f5ce21;
+    border-top: #f5ce21 ;
+}
+.btn-inst button{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ;
+    margin-top: 2%;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.btn-inst button:hover{
+    transform: scale(0.9);
+}
+@media(max-width: 600px) { 
+    .slider{
+        display: none;
+    }
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .about-text{
+        font-size: 30%;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    .slider .card{
+        padding: 0%;
+        margin: 0 0px;
+        display: none;
+    }
+    .btn-inst button{
+        margin-top: 10%;
+    }
 }
