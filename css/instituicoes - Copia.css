@@ -5,6 +5,7 @@
 }
 body{
 	scroll-behavior: smooth;
+	background: #fff;
 }
 /*--------Topo--------*/
 .topo{
@@ -37,6 +38,7 @@ body{
 	height: 4vh;
 	width: 85%;
 	border: none;
+	outline: none;
 }
 .topo .bt-evento {
 	width: 30px;
@@ -70,11 +72,8 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.link:hover > h2{
-	 font-size: 20.5px;
-}
 .link:hover > #seta {
-	width: 24px;
+	transform: scale(1.1);
 }
 .corpo h2 {
 	text-transform: uppercase;
@@ -108,6 +107,26 @@ body{
 }
 .card .conviver {
 	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/conviver.png);
+	background-position: center;
+}
+.card .ista {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/ista.png);
+	background-size: 500px;
+	background-position: center;
+}
+.card .livp {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/livp.png);
+	background-size: 500px;
+	background-position: center;
+}
+.card .le {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/le.png);
+	background-size: 500px;
+	background-position: center;
+}
+.card .amais {
+	background-image: linear-gradient(rgb(30,28,4,0.7),rgb(30,30,4,0.4)),url(../img/amais.png);
+	background-size: 500px;
 	background-position: center;
 }
 .card .descrição {
@@ -185,66 +204,6 @@ footer{
     text-transform: capitalize;
     color: #fff;
 }
-.slider{
-    margin-top: 20px;
-    max-width: 1150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slider .card{
-    background: white;
-    flex: 1;
-    margin: 0 20px;
-    border-radius: 20px;
-}
-.slider .card img{
-    height: 200px;
-    width: 100%;
-}
-.slider .card .img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-}
-.slider .card .content{
-    padding: 10px 20px;
-}
-.card .content .title{
-    font-size: 25px;
-    font-weight: 600;
-}
-.card .content .sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    color: #1b5713;
-    line-height: 20px;
-}
-.card .content p{
-    text-align: justify;
-    margin: 10px 0;
-}
-.card .content .btn{
-    display: block;
-    text-align: left;
-    margin: 10px 0;
-}
-.card .content .btn button{
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 17px;
-    padding: 5px 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s ;
-}
-.card .content .btn button:hover{
-    transform: scale(0.9);
-}
 hr{
     width: 50%;
     margin: auto;
@@ -293,4 +252,22 @@ hr{
     .btn-inst button{
         margin-top: 10%;
     }
+}
+
+/*-----Sections  das instituições-----*/
+
+.z{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #f5ce21;
+}
+.z .banner {
+	width: 100%
 }

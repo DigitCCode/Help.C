@@ -11,11 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/central.js" defer></script>
     <title>Instituições</title>
 </head>
 <body>
 	<header class="topo">
-		<img id="logo" src="img/Logo_Help.png"></img><div class="wiki"><img src="img/lupa.png"><input><img  src="img/microfone.png"></div><a class="bt-evento" href="index.html">×</a>
+		<img id="logo" src="img/Logo_Help.png"></img><form class="wiki"><img src="img/lupa.png"><input type="search" class="search"><img  src="img/microfone.png"></form><a class="bt-evento" href="index.html">×</a>
 	</header>
 	<main class="corpo">
 		<div class="link">
@@ -24,16 +25,16 @@
 		</div>
 		<div class="container">
 			<div class="card">
-				<div class="img apae"></div>
-				<div class="descrição"><h3>APAE</h3><p>4,5</p><img src="img/estrela.png"></div>
+				<div class="img apae" onclick="active('apae')"></div>
+				<div class="descrição" onclick="active('apae')"></><h3>APAE</h3><p>4,5</p><img src="img/estrela.png"></div>
 			</div>
 			<div class="card">
-				<div class="img cdc"></div>
-				<div class="descrição"><h3>CASA DA CRIANÇA</h3><p>4,5</p><img src="img/estrela.png"></div>
+				<div class="img cdc" onclick="active('cdc')"></div>
+				<div class="descrição" onclick="active('cdc')"><h3>CASA DA CRIANÇA</h3><p>4,5</p><img src="img/estrela.png"></div>
 			</div>
 			<div class="card">
-				<div class="img conviver"></div>
-				<div class="descrição"><h3>CONVIVER</h3><p>4,5</p><img src="img/estrela.png"></div>
+				<div class="img conviver" onclick="active('conviver')"></div>
+				<div class="descrição" onclick="active('conviver')"><h3>CONVIVER</h3><p>4,5</p><img src="img/estrela.png"></div>
 			</div>
 		</div>
 		<div class="link">
@@ -42,8 +43,8 @@
 		</div>
 		<div class="container">
 			<div class="card">
-				<div class="img ista"></div>
-				<div class="descrição"><h3>INSTITUTO SANTA TERESA D’ AVILA</h3><p>4,5</p><img src="img/estrela.png"></div>
+				<div class="img ista" onclick="active('ista')"></div>
+				<div class="descrição" onclick="active('ista')"><h3>INSTITUTO SANTA TERESA D’ AVILA</h3><p>4,5</p><img src="img/estrela.png"></div>
 			</div>
 			<div class="card">
 				<div class="img livp"></div>
@@ -82,7 +83,65 @@
         </div>
         </section>
     </footer>
-	<section>
+	<section class="z" id="apae">
+		<div class="banner"></div>
+		<div>
+			<h2>Apae</h2>
+		</div>
+		<div>
+			<h3>Sobre</h3>
+		</div>
+		<div>
+			<h3>Necessidades</h3>
+		</div>
+		<div>
+			<h3>Contato</h3>
+		</div>
+	</section>
+	<section class="z" id="cdc">
+		<div class="banner"></div>
+		<div>
+			<h2>Casa da Criança</h2>
+		</div>
+		<div>
+			<h3>Sobre</h3>
+		</div>
+		<div>
+			<h3>Necessidades</h3>
+		</div>
+		<div>
+			<h3>Contato</h3>
+		</div>
+	</section>
+	<section class="z" id="conviver">
+		<div class="banner"></div>
+		<div>
+			<h2>Conviver</h2>
+		</div>
+		<div>
+			<h3>Sobre</h3>
+		</div>
+		<div>
+			<h3>Necessidades</h3>
+		</div>
+		<div>
+			<h3>Contato</h3>
+		</div>
+	</section>
+	<section class="z" id="ista">
+		<div class="banner"></div>
+		<div>
+			<h2>Instituto Santa Teresa d’ Avila</h2>
+		</div>
+		<div>
+			<h3>Sobre</h3>
+		</div>
+		<div>
+			<h3>Necessidades</h3>
+		</div>
+		<div>
+			<h3>Contato</h3>
+		</div>
 	</section>
 </body>
 </html>
